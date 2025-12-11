@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/**/*.ts",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/wp-json/b1-analytics/v1/(.*)",
+      "dest": "/api/$1"
+    },
+    {
+      "src": "/wp-json/jwt-auth/v1/token",
+      "dest": "/api/jwt-auth/token"
+    }
+  ]
+}

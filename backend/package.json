@@ -1,0 +1,15 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Vercel Serverless API for analytics application",
+  "main": "index.js",
+  "scripts": {
+    "start": "echo 'Vercel handles deployment. No local start script needed.'"
+  },
+  "dependencies": {
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.16"
+  }
+}
